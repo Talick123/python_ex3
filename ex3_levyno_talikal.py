@@ -2,7 +2,8 @@
 Written by: Noga Levy (ID: 315260927, login: levyno)
              and Tali Kalev (ID: 208629691, login: talikal)
 
-Goal of the Program:
+Goal of the Program: create shapes classes (circle, square, rectangle)
+then create class of shapes collections.
 '''
 
 from abc import ABC, abstractmethod
@@ -152,7 +153,7 @@ class ShapesCollection(object):
 
 
 # =================END OF CLASSES===============
-
+'''
 #Creating 3 Shapes
 c = Circle(90)
 r = Rectangle(4, 6)
@@ -193,3 +194,4 @@ list2 = a.sameAreaAs(s)
 for x in list2:
     print(x)
 print(a.howManyQuadrilaterals())
+'''
